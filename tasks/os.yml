@@ -16,5 +16,6 @@
     recurse=yes
   with_items:
     - "{{gogs_app_home}}"
+    - "{{gogs_app_home}}/custom/conf"
     - "{{gogs_repos_home}}"
     - "{{gogs_log_root}}"
